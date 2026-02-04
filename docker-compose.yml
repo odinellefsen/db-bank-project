@@ -7,12 +7,12 @@ services:
         ports:
             - "5432:5432"
         environment:
-            POSTGRES_DB: db-bank-project
-            POSTGRES_USER: db-bank-simple-user
+            POSTGRES_DB: db_bank_project
+            POSTGRES_USER: db_bank_user
             POSTGRES_PASSWORD: app_password_1234
         volumes:
             - pgdata:/var/lib/postgresql/data
 
 volumes:
     pgdata:
-# postgresql://app_user:app_password@localhost:5432/app_db
+# postgresql://db_bank_user:app_password_1234@localhost:5432/db_bank_project
