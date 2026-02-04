@@ -12,7 +12,7 @@ docker compose up -d
 
 Connection details:
 
-- String: `postgresql://db_bank_user:app_password_1234@localhost:5432/db_bank_project`
+- Connection String: `postgresql://db_bank_user:app_password_1234@localhost:5432/db_bank_project`
 
 ### 2. Application Setup
 
